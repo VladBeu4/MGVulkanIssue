@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Project3;
 
@@ -76,6 +77,11 @@ public class Game1 : Game
             _spriteBatch.Begin();
             _spriteBatch.Draw(_whiteSquareTexture, _rectangles[i], Color.White * 0.75f);
             _spriteBatch.End();
+
+            // If this is called, the bug goes away
+            /*var fs = new FileStream("test." + i + ".png", FileMode.Create);
+            _auxRenderTarget.SaveAsPng(fs, _auxRenderTarget.Width, _auxRenderTarget.Height);
+            fs.Close();*/
 
             GraphicsDevice.SetRenderTarget(_accumulationRenderTarget);
 

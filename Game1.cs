@@ -29,7 +29,7 @@ public class Game1 : Game
             GraphicsDevice,
             400,
             400,
-            false,
+            false, //Also fixed if mipMap is set to true
             SurfaceFormat.Color,
             DepthFormat.None,
             0,

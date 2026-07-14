@@ -47,12 +47,6 @@ public class Game1 : Game
             new(150, 150, 200, 200)
         };
 
-        var aaa = new BlendState
-        {
-            ColorBlendFunction = BlendFunction.Max,
-            AlphaBlendFunction = BlendFunction.Max,
-        };
-
         _maxBlendState = new BlendState
         {
             ColorSourceBlend = Blend.One,

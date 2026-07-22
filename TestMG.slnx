@@ -1,4 +1,4 @@
 <Solution>
-  <Project Path="../Project3/Project3.DesktopGL/Project3.DesktopGL.csproj" Id="c8e10d45-ee8a-45f8-a80a-6e15057598a5" />
+  <Project Path="Project3.DesktopGL.csproj" />
   <Project Path="Project3.DesktopVK.csproj" />
 </Solution>

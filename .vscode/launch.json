@@ -5,10 +5,16 @@
     "version": "0.2.0",
     "configurations": [
       {
-        "name": "C#: TestMG Debug",
+        "name": "VK",
         "type": "dotnet",
         "request": "launch",
-        "projectPath": "${workspaceFolder}/TestMG.csproj"
+        "projectPath": "${workspaceFolder}/Project3.DesktopVK.csproj"
+      },
+      {
+        "name": "GL",
+        "type": "dotnet",
+        "request": "launch",
+        "projectPath": "${workspaceFolder}/Project3.DesktopGL.csproj"
       }
     ],
   }

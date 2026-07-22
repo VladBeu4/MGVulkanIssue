@@ -9,7 +9,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="MonoGame.Framework.Native" Version="3.8.5-preview.7" />
-		<PackageReference Include="MonoGame.Runtime.Windows.Vulkan" Version="3.8.5-preview.7" />
+		<PackageReference Include="MonoGame.Framework.Native" Version="3.8.5" />
+		<PackageReference Include="MonoGame.Runtime.Windows.Vulkan" Version="3.8.5" />
+		<PackageReference Include="MonoGame.Runtime.Mac.Vulkan" Version="3.8.5" />
 	</ItemGroup>
 </Project>
